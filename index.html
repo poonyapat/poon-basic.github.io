@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="basic.css">
+    <script type="text/javascript" src="basic.js"></script>
+</head>
+<body class="background">
+    <div class="on_top">
+        <ul class="alpha_ul alpha_ul_top">
+            <a href="index.html"><li class="alpha_li">Home</li></a>
+            <a href="schedule.html"><li class="alpha_li">Schedule</li></a>
+            <a href="contact.html"><li class="alpha_li">Contact</li></a>
+            <a href="about.html"><li class="alpha_li">About</li></a>
+        </ul>
+    </div>
+    <div class="alpha_header">
+        <h1>Profile</h1>
+        <p>Poonyapat Yanvisit [Poon]</p>
+    </div>
+    <div class="content">
+
+        <ul class="alpha_ul">
+            <li class="alpha_li" onclick="selectContent('general')">General</li>
+            <li class="alpha_li" onclick="selectContent('education')">Education</li>
+            <li class="alpha_li" onclick="selectContent('programming')">Programming</li>
+            <li class="alpha_li" onclick="selectContent('activity')">Activity</li>
+        </ul>
+
+        <div id="general" class="content_detail">
+            <p>Name : Poonyapat Yanvisit</p>
+            <p>Age : 20 years old</p>
+            <p>Gender : Male</p>
+            <p>Job : Student</p>
+            <p>Address : </p>
+            <ul>
+                <li><p>City : Bangkok</p></li>
+                <li><p>Country : Thailand</p></li>
+            </ul>
+        </div>
+
+        <div id="education" class="content_detail">
+            <p>Primary School : Bangkok Christian College</p>
+            <p>Secondary School : Bangkok Christian College</p>
+            <p>Bachelor's Degree : </p>
+            <ul>
+                <li><p>University : Kasetsart Univsersity</p></li>
+                <li><p>Faculty : Science</p></li>
+                <li><p>Department : Computer Science</p></li>
+            </ul>
+        </div>
+
+        <div id="programming" class="content_detail">
+            <p>Programming Laguage : </p>
+            <ul>
+                <li><p>Python : Pandas, Matplotlib and On Studying (exp: 6~8 months)</p></li>
+                <li><p>Java : Javafx (exp: 9~12 months)</p></li>
+                <li><p>C/C++ : Basic (exp: 1~3 months)</p></li>
+                <li><p>C# : Unity (exp: 1 month)</p></li>
+                <li><p>HTML,CSS : Normal (exp: &lt; 1 month)</p></li>
+                <li><p>Javascript : On Studying (exp: &lt; 1 month)</p></li>
+            </ul>
+            <p>Other skills : Unix, Photoshop, Excel, SQL</p>
+        </div>
+
+        <div id="activity" class="content_detail">
+            <p>Game : </p>
+            <ul>
+                <li><p>League of Legend : EX-Proleague Player</p></li>
+                <li><p>Overwatch</p></li>
+            </ul>
+            <p>Book : </p>
+            <ul>
+                <li><p>Novel : Fantasy, Action, Drama, Comedy</p></li>
+                <li><p>Manga : Fantasy, Action, Comedy, Romantic</p></li>
+            </ul>
+            <p>Others : </p>
+            <ul>
+                <li><p>Sleeping</p></li>
+                <li><p>Running</p></li>
+                <li><p>Eating</p></li>
+                <li><p>Using Internet</p></li>
+                <li><p>Watching Anime/Movie</p></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>selectContent("general")</script>
+</body>
+</html>
